@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /hero.jpg
-actionText: 冲kksk
-actionLink: /Guide.md
+heroImage: /logo.png
+actionText: 冲
+actionLink: /guide/README.md
 features:
 - title: 不务正业
   details: 干啥啥不行,搞事第一名

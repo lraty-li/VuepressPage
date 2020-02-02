@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy":"bash deploy.sh",
-    "docs:dev": "vuepress dev docs",
+    "deploy": "bash deploy.sh",
+    "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "repository": {
@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/lraty-li/VuepressPage/issues"
   },
-  "homepage": "https://github.com/lraty-li/VuepressPage#readme"
+  "homepage": "https://github.com/lraty-li/VuepressPage#readme",
+  "dependencies": {}
 }

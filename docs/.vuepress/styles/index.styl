@@ -1,0 +1,47 @@
+.Intro
+  margin 1rem 0
+  padding .1rem 1.5rem
+  border-radius 0.4rem
+  background-color #f0f4f8
+  overflow:hidden
+  .title
+    font-weight bolder
+    display block
+    margin: .5em auto .5em
+    font-size: 1.5em
+  img
+    width:30%
+    float: left 
+    overflow:hidden
+    padding: 0 1em 1em 0
+    vertical-align: middles
+    @media screen and (max-width: 620px)
+      width:60% 
+      margin: auto
+      float: none
+      display:block
+  .comment
+    background-color: #f0f4f8
+    summary{
+      margin:1em auto  0em
+      //阻止选中
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none; 
+      user-select: none;
+      background-color: #eeeeee
+    }
+    summary:focus{
+      //去除outline
+      outline: none 0;
+      background-color:transparent
+    }
+    p {
+      margin: 0
+      background-color:transparent
+    }
+.custom-block
+  &.right
+    color transparentify($textColor, 0.4)
+    font-size 0.9rem
+    text-align right  
